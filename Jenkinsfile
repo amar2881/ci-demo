@@ -18,3 +18,7 @@ pipeline {
     stage('Printfile') {
       steps {
         sh 'cat abc.txt'
+      }
+    }
+  }
+}
