@@ -9,7 +9,8 @@ pipeline {
   }
   
   stages {
-    stages('Declarative Checkout') {
+     
+    stage('Declarative Checkout') {
       steps {
         checkout scm
       }
