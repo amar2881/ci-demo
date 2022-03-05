@@ -5,8 +5,7 @@ pipeline {
     disableConcurrentBuilds()
   }
  
-  stages {
-     
+  stages {     
     stage('Stage1') {
       steps {
         sh 'echo stage1'
