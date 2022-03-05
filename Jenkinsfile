@@ -5,7 +5,7 @@ pipeline {
     disableConcurrentBuilds()
   }
   triggers {
-       pollSCM('*****')
+       pollSCM('* * * * *')
   }
   
   stages {
@@ -21,5 +21,6 @@ pipeline {
         sh 'cat abc.txt'
       }
     }
+     
   }
 }
