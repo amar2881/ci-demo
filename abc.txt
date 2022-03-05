@@ -1,1 +1,2 @@
 This is new file for cicd
+This change should be build automatically
