@@ -23,9 +23,9 @@ pipeline {
         sh 'echo stage2'
       }
     }
-      stage('Stage2') {
+      stage('Stage3') {
       steps {
-        sh 'echo stage2'
+        sh 'echo stage3'
       }
     }
      
