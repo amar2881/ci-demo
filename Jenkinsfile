@@ -23,6 +23,11 @@ pipeline {
         sh 'echo stage2'
       }
     }
+      stage('Stage2') {
+      steps {
+        sh 'echo stage2'
+      }
+    }
      
   }
 }
