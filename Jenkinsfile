@@ -4,7 +4,6 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '3')) 
     disableConcurrentBuilds()
   } 
- 
   stages {     
     stage('Stage1') {
       steps {
